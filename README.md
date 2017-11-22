@@ -46,235 +46,106 @@ The "Types" Glossary is used to clearly define parts of the API.
 - **availableTools:** `{obj}`
 - **backgroundTasks:** `ƒ ()`
 - **basePath:**
-
----
+- **bind:** `ƒ (t,e)`
+- **bindEvent:** `ƒ (t,e)`
+- **bindEventOnce:** `ƒ (t,e)`
+- **browserInfo:** `{obj}`
+  - browser: `"string"`
+  - os: `"string"`
+  - deviceType: `"Desktop"`
+- **buildDate:** `"string"`
+- **checkAsyncInclude:** `ƒ ()`
+- **cleanText:** `ƒ (t)`
+- **configurationSettings:** `{obj}`
+  - pageLoadRules: `[array]`
+  - rules: `[array]`
+  - directCallRules: `[array]`
+  - settings: `{obj}`
+  - data: `{obj}`
+- **contains:** `ƒ (t,e)`
+- **containsElement:** `ƒ (t,e)`
+- **cssQuery:** `ƒ (e,n)`
+- **data:** `{obj}`
+  - URI: `"string"` 
+  - browser: `{obj}`
+  - cartItems: `[array]` 
+  - revenue: `"string"`
+  - host: `{obj}`
+- **dataCache:** `{obj}`
+- **dataElementSafe:** `ƒ (t,e)`
+- **dataElements:** `obj`
+  - [instance name]: `{obj}` 
+  - _campaign: `{obj}`, 
+  - _campaignContent: `{obj}` 
+  - _campaignMedium: `{obj}` 
+  - _campaignSource: `{obj}`
+- **detectBrowserInfo:** `ƒ ()`
+- **directCallRules:** `[array]`
+- **domReady:** `ƒ (t)`
+- **dynamicRules:** `[array]`
+- **each:** `ƒ (t,e,n)`
+- **ecommerce:** `{obj}`
+  - addItem: `ƒ`, 
+  - addTrans: `ƒ`, 
+  - trackTrans: `ƒ`
+- **encodeObjectToURI:** `ƒ (t)`
+- **ensureCSSSelector:** `ƒ ()`
+- **equalsIgnoreCase:** `ƒ (t,e)` 
+- **errors:** `[array]`
+- **escapeForHtml:** `ƒ (t)`
+- **escapeHtmlParams:** `ƒ (t)`
+- **eventEmitterBackgroundTasks:** `ƒ ()`
+- **eventEmitters:** `[array]`
+- **every:** `ƒ (t,e,n)`
+- **evtHandlers:** `{obj}`
+- **aftertoolinit:** `[array]`
+- **execute:** `ƒ (t,e,n,i)`
+- **extend:** `ƒ (t,e)`
+- **filter:** `ƒ (t,e,n)`
+- **filterRules:** `ƒ ()`
+- **find:** `ƒ (t,e,n)`
+- **fireEvent**: `ƒ (t,e)`
+- **fireOnceEvents:** `[array]`
+- **firePageLoadEvent:** `ƒ (t)`
+- **fireRule:** `ƒ (t,e,n)`
+- **flushPendingCalls:** `ƒ (t)`
+- **getCaseSensitivityQueryParamsMap:** `ƒ (t)`
+- **getDataElement:** `ƒ (t,e,n)`
+- **getElementProperty:** `ƒ (t,e)`
+- **getObjectProperty:** `ƒ (t,e,n)`
+- **getQueryParam:** `ƒ (t)`
+- **getQueryParamCaseInsensitive:** `ƒ (t)`
+- **getToolsByType:** `ƒ (t)`
+- **getUniqueRuleEvents:** `ƒ () `
+- **getUserAgent:** `ƒ ()`
+- **getVar:** `ƒ (n,a,r)`
+- **getVars:** `ƒ (t,e,n)`
+- **getVisitorId:** `ƒ ()`
+- **handleEvent:** `ƒ (t)`
+- **handleOverrides:** `ƒ ()`
+- **hasAttr:** `ƒ(t,e)`
+- **hasMultipleDomains:** `ƒ ()`
+- **hasSelector: `bool`
+- **indexOf:** `ƒ (t,e)`
+- **inherit:** `ƒ (t,e)`
+- **init:** `ƒ (e)`
+- **initEventEmitters:** `ƒ ()`
+- **initTools:** `ƒ (t)`
+- initialized:** `bool`
+- **isArray:** `ƒ isArray()`
+- **isHttps:** `ƒ ()`
+- **isLinkTag:** `ƒ (t)`
+- **isLinked:** `ƒ (t)`
+- **isLinkerLink: `ƒ (t)`
+- **isNaN:** `ƒ (t)`
+- **isNumber:** `ƒ (t)`
+- **isObject:** `ƒ (t)`
+- **isOutboundLink:** `ƒ (t)`
+- **isRegex:** `ƒ (t)`
 
 ## TODO
+
 ```
-:
-ƒ ()
-bind
-:
-ƒ (t,e)
-bindEvent
-:
-ƒ (t,e)
-bindEventOnce
-:
-ƒ (t,e)
-browserInfo
-:
-{browser: "Chrome", os: "MacOS", deviceType: "Desktop"}
-buildDate
-:
-"2017-11-17 21:28:10 UTC"
-checkAsyncInclude
-:
-ƒ ()
-cleanText
-:
-ƒ (t)
-configurationSettings
-:
-{pageLoadRules: Array(2), rules: Array(9), directCallRules: Array(0), settings: {…}, data: {…}, …}
-contains
-:
-ƒ (t,e)
-containsElement
-:
-ƒ (t,e)
-cssQuery
-:
-ƒ (e,n)
-data
-:
-{URI: "/", browser: {…}, cartItems: Array(0), revenue: "", host: {…}, …}
-dataCache
-:
-{1: {…}, 2: {…}, 3: {…}, 4: {…}, 5: {…}, 6: {…}, 7: {…}, 8: {…}, 9: {…}, 10: {…}, 11: {…}, 12: {…}, 13: {…}, 14: {…}, 15: {…}, 16: {…}, 17: {…}, 18: {…}}
-dataElementSafe
-:
-ƒ (t,e)
-dataElements
-:
-{2.0 Page URL: {…}, _campaign: {…}, _campaignContent: {…}, _campaignMedium: {…}, _campaignSource: {…}, …}
-detectBrowserInfo
-:
-ƒ ()
-directCallRules
-:
-[]
-domReady
-:
-ƒ (t)
-dynamicRules
-:
-[]
-each
-:
-ƒ (t,e,n)
-ecommerce
-:
-{addItem: ƒ, addTrans: ƒ, trackTrans: ƒ}
-encodeObjectToURI
-:
-ƒ (t)
-ensureCSSSelector
-:
-ƒ ()
-equalsIgnoreCase
-:
-ƒ (t,e)
-errors
-:
-[]
-escapeForHtml
-:
-ƒ (t)
-escapeHtmlParams
-:
-ƒ (t)
-eventEmitterBackgroundTasks
-:
-ƒ ()
-eventEmitters
-:
-(11) [a, r, o, c, u, l, d, f, h, g, p]
-every
-:
-ƒ (t,e,n)
-evtHandlers
-:
-{aftertoolinit: Array(1)}
-execute
-:
-ƒ (t,e,n,i)
-extend
-:
-ƒ (t,e)
-filter
-:
-ƒ (t,e,n)
-filterRules
-:
-ƒ ()
-find
-:
-ƒ (t,e,n)
-fireEvent
-:
-ƒ (t,e)
-fireOnceEvents
-:
-(2) ["condition", "elementexists"]
-firePageLoadEvent
-:
-ƒ (t)
-fireRule
-:
-ƒ (t,e,n)
-flushPendingCalls
-:
-ƒ (t)
-getCaseSensitivityQueryParamsMap
-:
-ƒ (t)
-getDataElement
-:
-ƒ (t,e,n)
-getElementProperty
-:
-ƒ (t,e)
-getObjectProperty
-:
-ƒ (t,e,n)
-getQueryParam
-:
-ƒ (t)
-getQueryParamCaseInsensitive
-:
-ƒ (t)
-getToolsByType
-:
-ƒ (t)
-getUniqueRuleEvents
-:
-ƒ ()
-getUserAgent
-:
-ƒ ()
-getVar
-:
-ƒ (n,a,r)
-getVars
-:
-ƒ (t,e,n)
-getVisitorId
-:
-ƒ ()
-handleEvent
-:
-ƒ (t)
-handleOverrides
-:
-ƒ ()
-hasAttr
-:
-ƒ (t,e)
-hasMultipleDomains
-:
-ƒ ()
-hasSelector
-:
-true
-indexOf
-:
-ƒ (t,e)
-inherit
-:
-ƒ (t,e)
-init
-:
-ƒ (e)
-initEventEmitters
-:
-ƒ ()
-initTools
-:
-ƒ (t)
-initialized
-:
-true
-isArray
-:
-ƒ isArray()
-isHttps
-:
-ƒ ()
-isLinkTag
-:
-ƒ (t)
-isLinked
-:
-ƒ (t)
-isLinkerLink
-:
-ƒ (t)
-isNaN
-:
-ƒ (t)
-isNumber
-:
-ƒ (t)
-isObject
-:
-ƒ (t)
-isOutboundLink
-:
-ƒ (t)
-isRegex
-:
-ƒ (t)
 isRightClick
 :
 ƒ (t)
