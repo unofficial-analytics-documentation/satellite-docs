@@ -1,4 +1,4 @@
-# Adobe DTM Satellite Documentation
+# Adobe DTM Satellite Documentation 🛰
 
 Unofficial Adobe Satellite Documentation
 
@@ -6,13 +6,24 @@ Unofficial Adobe Satellite Documentation
 
 View the [Wiki](https://github.com/unofficial-adobe-dtm-documentation/adobe-dtm-satellite-docs/wiki) for examples and further reading.
 
-Please contribute! Help make awesome analytics products together.
+Please contribute! This repository and organization needs help documenting awesome analytics products.
 
 
-## API
+## Satellite API
 
 This is an initial copy/paste of the global object.
 
+### "Types" Glossary
+
+The "Types" Glossary is used to clearly define parts of the API. 
+
+- **array:** `[array]`, `[1, 2, 3]`
+- **bool:** `boolean`, `true`, `false` 
+- **ƒ:** `function`, `function() {}`
+- **num:** `number`, `1`, `2`, `6`
+- **obj:** `{object}`, `{ name: 'Randy', id: '1bd45' }`
+
+### API 
 
 - **initialized:** `bool` 
 - **uuid:** `num`
@@ -35,6 +46,11 @@ This is an initial copy/paste of the global object.
 - **availableTools:** `{obj}`
 - **backgroundTasks:** `ƒ ()`
 - **basePath:**
+
+---
+
+## TODO
+```
 :
 ƒ ()
 bind
