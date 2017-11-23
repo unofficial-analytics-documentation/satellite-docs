@@ -1,8 +1,4 @@
-<h1 align="center">Unofficial Adobe DTM Satellite Documentation 🛰</h1>
-
-<h5 align="center">Unofficial Adobe Satellite Documentation</h5>
-
-----
+<h1 align="center">🛰 Unofficial Adobe DTM Satellite Documentation 🛰</h1>
 
 <p align="center">
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
@@ -15,8 +11,6 @@
 </p>
 
 ----
-
-View the [Wiki](https://github.com/unofficial-adobe-dtm-documentation/adobe-dtm-satellite-docs/wiki) for examples and further reading.
 
 Please contribute! This repository and organization needs help documenting awesome analytics products.
 
