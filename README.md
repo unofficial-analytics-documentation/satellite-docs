@@ -7,9 +7,9 @@
 <p align="center">
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
   <a href="#api-nomenclature">API Nomenclature</a>&nbsp;&nbsp;
-  <a href="#types-glossary">Types Glossary</a>&nbsp;&nbsp;
-  <a href="#method-argument-glossary">Method Argument Glossaryy</a>&nbsp;&nbsp;
-  <a href="#api-methods-and-properties">API methods and properties</a>
+  <a href="#types-glossary">Types</a>&nbsp;&nbsp;
+  <a href="#method-argument-glossary">Method Arguments</a>&nbsp;&nbsp;
+  <a href="#api-methods-and-properties">API</a>
   <a href="/issues">Issues</a>
   <a href="/wiki">Wiki</a>
 </p>
