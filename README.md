@@ -1,4 +1,4 @@
-<h1 align="center">Unofficial Adobe DTM Satellite Documentation</h1>
+<h1 align="center">Unofficial Satellite Documentation</h1>
 
 <p align="center">
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
@@ -11,7 +11,7 @@
 
 ----
 
-Please contribute! This repository and organization needs help documenting awesome analytics products.
+This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/). Please contribute! This repository and organization needs help documenting awesome analytics products.
 
 
 ## Satellite API 🛰
