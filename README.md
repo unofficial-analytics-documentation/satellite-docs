@@ -1,9 +1,19 @@
-# Adobe DTM Satellite Documentation 🛰
+<h1 align="center">Adobe DTM Satellite Documentation 🛰</h1>
 
-Unofficial Adobe Satellite Documentation
+<h5 align="center">Unofficial Adobe Satellite Documentation</h5>
 
 ----
 
+<p align="center">
+  <a href="https://github.com/unofficial-adobe-dtm-documentation/adobe-dtm-satellite-docs/wiki">Wiki</a>&nbsp;&nbsp;
+  <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
+  <a href="#api-nomenclature">API Nomenclature</a>&nbsp;&nbsp;
+  <a href="#types-glossary">Types Glossary</a>&nbsp;&nbsp;
+  <a href="#method-argument-glossary">Method Argument Glossaryy</a>&nbsp;&nbsp;
+  Method Argument Glossary
+</p>
+
+----
 View the [Wiki](https://github.com/unofficial-adobe-dtm-documentation/adobe-dtm-satellite-docs/wiki) for examples and further reading.
 
 Please contribute! This repository and organization needs help documenting awesome analytics products.
@@ -13,17 +23,45 @@ Please contribute! This repository and organization needs help documenting aweso
 
 This is an initial copy/paste of the global object.
 
-### "Types" Glossary
 
-The "Types" Glossary is used to clearly define parts of the API. 
+### API Nomenclature 
 
-- **array:** `[array]`, `[1, 2, 3]`
-- **bool:** `boolean`, `true`, `false` 
-- **ƒ:** `function`, `function() {}`
-- **num:** `number`, `1`, `2`, `6`
-- **obj:** `{object}`, `{ name: 'Randy', id: '1bd45' }`
+#### Types Glossary
 
-### API 
+The "Types" Glossary is used to clearly define types for each method or property of the Satellite API. 
+
+- **array:** `[array]`
+  - _examples:_ `[1, 2, 3]`
+- **bool:** `boolean`
+  - _examples:_ `true`, `false` 
+- **ƒ:** `function`, 
+  - _examples:_ `function() {}`, `() => {}`
+- **num:** `number`, 
+  - _examples:_ `1`, `2`, `6`
+- **obj:** `{object}`, 
+ - _examples:_ `{ name: 'Randy', id: '1bd45' }`
+
+#### Method Argument Glossary
+
+The Method Argument Glossary is used to clearly define arguments used witin Satellite Methods. 
+
+- **a:** array
+  - _type:_ `[array]`
+  - _examples:_ `[1, 2, 3]`
+- **e:** event 
+  - _type:_ todo
+  - _examples:_ todo
+- **i:** iterator
+  - _type:_ todo
+  - _examples:_ todo
+- **n:** todo
+  - _type:_ todo
+  - _examples:_ todo
+- **t:** `text`,
+  - _type:_ `"is a string"`
+  - _examples:_ "string", "this is a string"
+
+#### API methods and properties
 
 - **initialized:** `bool` 
 - **uuid:** `num`
@@ -203,60 +241,25 @@ The "Types" Glossary is used to clearly define parts of the API.
 - **specialProperties** `{obj}`
   - text: `ƒ` 
   - cleanText: `ƒ`
-
-## TODO
-
-```
-stagingLibraryOverride
-:
-ƒ ()
-stopPropagation
-:
-ƒ (t)
-stringify
-:
-ƒ (t,e)
-text
-:
-ƒ (t)
-textMatch
-:
-ƒ (t,e)
-throttle
-:
-ƒ (t,e)
-toArray
-:
-ƒ (e)
-tools
-:
-{default: y, e0207de5badfce9d70cda7078fa15003: b, 75dda97a010df6dd87bbab6db8829f0c759b8c01: w}
-track
-:
-ƒ (t)
-trim
-:
-ƒ (t)
-unbindEvent
-:
-ƒ (t,e)
-updateQueryParams
-:
-ƒ ()
-uuid
-:
-19
-values
-:
-ƒ (t)
-visibility
-:
-{isHidden: ƒ, isVisible: ƒ, getHiddenProperty: ƒ, getVisibilityEvent: ƒ}
-whenEvent
-:
-ƒ (t,e)
-__proto__
-:
-Object
-```
+- **stagingLibraryOverride:** `ƒ ()`
+- **stopPropagation:** `ƒ (t)`
+- **stringify:** `ƒ (t,e)`
+- **text:** `ƒ (t)`
+- **textMatch:** `ƒ (t,e)`
+- **throttle:** `ƒ (t,e)`
+- **toArray:** `ƒ (e)`
+- **tools:** `{obj}`
+- `**track:** `ƒ (t)`
+- **trim:** `ƒ (t)`
+- **unbindEvent:** `ƒ (t,e)`
+- **updateQueryParams:** `ƒ ()`
+- **uuid:** `num`
+- **values:** `ƒ (t)`
+- **visibility:** `{obj}`
+  - isHidden: `ƒ`, 
+  - isVisible: `ƒ`, 
+  - getHiddenProperty: `ƒ`, 
+  - getVisibilityEvent: `ƒ`
+- **whenEvent:** `ƒ (t,e)`
+- **__proto__:** `{obj}`
 
