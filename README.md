@@ -5,8 +5,8 @@
   <a href="#api-nomenclature">API Nomenclature</a>&nbsp;&nbsp;
   <a href="#types-glossary">Types</a>&nbsp;&nbsp;
   <a href="#method-argument-glossary">Method Arguments</a>&nbsp;&nbsp;
-  <a href="#api-methods-and-properties">API</a>
-  <a href="/issues">Issues</a>
+  <a href="#api-methods-and-properties">API</a>&nbsp;&nbsp;
+  <a href="/issues">Issues</a>&nbsp;&nbsp;
   <a href="/wiki">Wiki</a>
 </p>
 
