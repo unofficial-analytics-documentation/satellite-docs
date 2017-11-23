@@ -5,15 +5,17 @@
 ----
 
 <p align="center">
-  <a href="https://github.com/unofficial-adobe-dtm-documentation/adobe-dtm-satellite-docs/wiki">Wiki</a>&nbsp;&nbsp;
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
   <a href="#api-nomenclature">API Nomenclature</a>&nbsp;&nbsp;
   <a href="#types-glossary">Types Glossary</a>&nbsp;&nbsp;
   <a href="#method-argument-glossary">Method Argument Glossaryy</a>&nbsp;&nbsp;
-  Method Argument Glossary
+  <a href="#api-methods-and-properties">API methods and properties</a>
+  <a href="/issues">Issues</a>
+  <a href="/wiki">Wiki</a>
 </p>
 
 ----
+
 View the [Wiki](https://github.com/unofficial-adobe-dtm-documentation/adobe-dtm-satellite-docs/wiki) for examples and further reading.
 
 Please contribute! This repository and organization needs help documenting awesome analytics products.
