@@ -1,8 +1,7 @@
-<h1 align="center">🛰 Unofficial Adobe DTM Satellite Documentation 🛰</h1>
+<h1 align="center">Unofficial Adobe DTM Satellite Documentation</h1>
 
 <p align="center">
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
-  <a href="#api-nomenclature">API Nomenclature</a>&nbsp;&nbsp;
   <a href="#types-glossary">Types</a>&nbsp;&nbsp;
   <a href="#method-argument-glossary">Method Arguments</a>&nbsp;&nbsp;
   <a href="#api-methods-and-properties">API</a>&nbsp;&nbsp;
@@ -15,12 +14,11 @@
 Please contribute! This repository and organization needs help documenting awesome analytics products.
 
 
-## Satellite API
+## Satellite API 🛰
 
 This is an initial copy/paste of the global object.
 
-
-### API Nomenclature 
+----
 
 #### Types Glossary
 
@@ -36,6 +34,8 @@ The "Types" Glossary is used to clearly define types for each method or property
   - _examples:_ `1`, `2`, `6`
 - **obj:** `{object}`, 
  - _examples:_ `{ name: 'Randy', id: '1bd45' }`
+
+----
 
 #### Method Argument Glossary
 
@@ -56,6 +56,8 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **t:** `text`,
   - _type:_ `"is a string"`
   - _examples:_ "string", "this is a string"
+
+----
 
 #### API methods and properties
 
