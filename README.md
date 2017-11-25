@@ -11,7 +11,7 @@
 
 ----
 
-This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/). Please contribute! This repository and organization needs help documenting awesome analytics products.
+This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/). It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute!
 
 
 ## Satellite API 🛰
@@ -167,7 +167,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **init:** `ƒ (e)`
 - **initEventEmitters:** `ƒ ()`
 - **initTools:** `ƒ (t)`
-- initialized:** `bool`
+- **initialized:** `bool`
 - **isArray:** `ƒ isArray()`
 - **isHttps:** `ƒ ()`
 - **isLinkTag:** `ƒ (t)`
