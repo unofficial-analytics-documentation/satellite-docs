@@ -1,4 +1,4 @@
-<h1 align="center">Unofficial Satellite Documentation</h1>
+<h1 align="center">Satellite Documentation</h1>
 
 <p align="center">
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
