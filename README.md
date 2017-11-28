@@ -13,10 +13,11 @@
 
 This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/). It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute!
 
+[Old Documention](http://microsite.omniture.com/t2/help/en_US/dtm/object_reference.pdf)
 
 ## Satellite API 🛰
 
-This is an initial copy/paste of the global object with some help from this official [PDF](http://microsite.omniture.com/t2/help/en_US/dtm/object_reference.pdf).
+This is an initial copy/paste of the global object.
 
 ----
 
