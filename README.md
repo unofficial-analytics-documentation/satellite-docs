@@ -16,7 +16,7 @@ This repository contains _unofficial_ **Adobe DTM Satellite Library** documentat
 
 ## Satellite API 🛰
 
-This is an initial copy/paste of the global object.
+This is an initial copy/paste of the global object with some help from this official [PDF](http://microsite.omniture.com/t2/help/en_US/dtm/object_reference.pdf).
 
 ----
 
