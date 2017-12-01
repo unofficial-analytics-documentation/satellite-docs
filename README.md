@@ -1,4 +1,4 @@
-<h1 align="center">Satellite Documentation</h1>
+<h1 align="center">Satellite Documentation <img src="https://user-images.githubusercontent.com/1074042/33500744-be2837a2-d68e-11e7-823a-55ca14882fbc.png" alt="satellite" width="40" /></h1>
 
 <p align="center">
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
