@@ -247,7 +247,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **throttle:** `ƒ (t,e)`
 - **toArray:** `ƒ (e)`
 - **tools:** `{obj}`
-- `**track:** `ƒ (t)`
+- **track:** `ƒ (t)`
 - **trim:** `ƒ (t)`
 - **unbindEvent:** `ƒ (t,e)`
 - **updateQueryParams:** `ƒ ()`
