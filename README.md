@@ -88,7 +88,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **browserInfo:** `{obj}`
   - browser: `"string"`
   - os: `"string"`
-  - deviceType: `"Desktop"`
+  - deviceType: `"string"`
 - **buildDate:** `"string"`
 - **checkAsyncInclude:** `ƒ ()`
 - **cleanText:** `ƒ (t)`
