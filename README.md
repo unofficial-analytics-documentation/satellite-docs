@@ -146,7 +146,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **filter:** `ƒ (t,e,n)`
 - **filterRules:** `ƒ ()`
 - **find:** `ƒ (t,e,n)`
-- **fireEvent**: `ƒ (t,e)`
+- **fireEvent:** `ƒ (t,e)`
 - **fireOnceEvents:** `[array]`
 - **firePageLoadEvent:** `ƒ (t)`
 - **fireRule:** `ƒ (t,e,n)`
@@ -167,7 +167,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **handleOverrides:** `ƒ ()`
 - **hasAttr:** `ƒ(t,e)`
 - **hasMultipleDomains:** `ƒ ()`
-- **hasSelector: `bool`
+- **hasSelector:** `bool`
 - **indexOf:** `ƒ (t,e)`
 - **inherit:** `ƒ (t,e)`
 - **init:** `ƒ (e)`
@@ -178,7 +178,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **isHttps:** `ƒ ()`
 - **isLinkTag:** `ƒ (t)`
 - **isLinked:** `ƒ (t)`
-- **isLinkerLink: `ƒ (t)`
+- **isLinkerLink:** `ƒ (t)`
 - **isNaN:** `ƒ (t)`
 - **isNumber:** `ƒ (t)`
 - **isObject:** `ƒ (t)`
