@@ -68,6 +68,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 #### API methods and properties
 
 - **initialized:** `bool` 
+  - _example:_ console.log(_satellite.initialized) // true
 - **uuid:** `num`
 - **dataCache:** `{obj}`
 - **$data:** `ƒ (t,e,n)`
