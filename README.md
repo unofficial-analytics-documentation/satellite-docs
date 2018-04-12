@@ -237,6 +237,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **setLocation:** `ƒ (e)`
 - **setVar:** `ƒ ()`
   - _example:_ `_satellite.setVar('PageName','test' ); _satellite.data.customVars // is an {object}`
+  - [reference link](https://forums.adobe.com/thread/2422290)
 - **setVideoListeners:** `ƒ ()`
 - **settings:** `{obj}`
   - trackInternalLinks: `bool` 
