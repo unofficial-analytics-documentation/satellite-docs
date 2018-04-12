@@ -236,6 +236,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **setListeners:** `ƒ ()`
 - **setLocation:** `ƒ (e)`
 - **setVar:** `ƒ ()`
+  - _example:_ `_satellite.setVar('PageName','test' ); _satellite.data.customVars // is an {object}`
 - **setVideoListeners:** `ƒ ()`
 - **settings:** `{obj}`
   - trackInternalLinks: `bool` 
@@ -254,7 +255,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **throttle:** `ƒ (t,e)`
 - **toArray:** `ƒ (e)`
 - **tools:** `{obj}`
-- `**track:** `ƒ (t)`
+- **track:** `ƒ (t)`
 - **trim:** `ƒ (t)`
 - **unbindEvent:** `ƒ (t,e)`
 - **updateQueryParams:** `ƒ ()`
