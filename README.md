@@ -70,7 +70,11 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **initialized:** `bool` 
   - _example:_ `console.log(_satellite.initialized) // true`
 - **uuid:** `num`
+  - _example:_ `console.log(_satellite.uuid) // 12
+  - universally unique identifier
 - **dataCache:** `{obj}`
+  - _example:_ `console.log(_satellite.dataCache[1]) // {eventProcessed: true}`
+  - an `[array]` of `{objects}` with stores `events`
 - **$data:** `ƒ (t,e,n)`
 - **BaseTool:** `ƒ (t)`
 - **Logger:** `{obj}`
