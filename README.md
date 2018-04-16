@@ -17,12 +17,13 @@
 
 ----
 
-This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/). It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute!
+This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/). It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute! 
 
+The purpose of this document is to provide a place for the DTM community to document the **`_satellite`** library and how it works—not specifically pertaining to DTM.
 
 ## Satellite API 🛰
 
-This is an initial copy/paste of the global object.
+Below, the **`_satellite`** API is listed out fully and there are beginning to be snippets of code on how to use the API as well as a brief description of what the code does.
 
 ----
 
