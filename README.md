@@ -69,20 +69,20 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 
 - **initialized:** `bool` 
   - _example:_ `console.log(_satellite.initialized) // true`
-  - described whether `_satellite` has successfully initialized. 
+  - describes whether `_satellite` has successfully initialized. 
 - **uuid:** `num`
   - _example:_ `console.log(_satellite.uuid) // 12`
   - universally unique identifier
 - **dataCache:** `{obj}`
   - _example:_ `console.log(_satellite.dataCache[1]) // {eventProcessed: true}`
-  - an `[array]` of `{objects}` with stores `events`
+  - an `[array]` of `{objects}` with stored `events`
 - **$data:** `ƒ (t,e,n)`
 - **BaseTool:** `ƒ (t)`
   - _example to create settings:_ `_satellite.BaseTool({ forceLowerCase: true });`
-    - **note** this example could use help
+    - **note** this example could use help. 
   - _example to extend the prototype:_ `_satellite.BaseTool.stuff = 'stuff'`
-  - takes in an `{argument object}` called settings, or
-  - has helper methods bound to its prototype
+  - takes in an `{argument object}` called settings for tool setting
+  - Also, has helper methods bound to its prototype 
 - **Logger:** `{obj}`
   - outputEnabled: `bool` 
   - messages: `[array]`
