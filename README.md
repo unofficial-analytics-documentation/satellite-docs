@@ -21,6 +21,13 @@ This repository contains _unofficial_ **Adobe DTM Satellite Library** documentat
 
 The purpose of this document is to provide a place for the DTM community to document the **`_satellite`** library and how it works—not specifically pertaining to DTM.
 
+## Usage Guides
+
+The list below contains guides to implement and use the **`_satellite`** on webpages. 
+
+- **[Script loading](https://github.com/unofficial-analytics-documentation/satellite-docs/blob/master/docs/script-loading.md):** Suggested patterns for loading **`_satellite`**.
+
+
 ## Satellite API 🛰
 
 Below, the **`_satellite`** API is listed out fully and there are beginning to be snippets of code on how to use the API as well as a brief description of what the code does.
