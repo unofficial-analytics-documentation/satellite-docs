@@ -1,6 +1,6 @@
-# Patterns
+# Script Loading
 
-This document includes patterns for using the satellite library.
+This documentation discusses script loading while using the Satellite Library.
 
 ## Async Library Loading Static Library Loading
 
