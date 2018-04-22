@@ -25,7 +25,7 @@ The purpose of this document is to provide a place for the DTM community to docu
 
 The list below contains guides to implement and use the **`_satellite`** on webpages. 
 
-- **[Script loading](https://github.com/unofficial-analytics-documentation/satellite-docs/blob/master/docs/script-loading.md):** Suggested patterns for loading **`_satellite`**.
+- **[Script loading](https://github.com/unofficial-analytics-documentation/satellite-docs/blob/master/docs/script-loading.md):** patterns for loading **`_satellite`**.
 
 
 ## Satellite API 🛰
