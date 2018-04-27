@@ -34,7 +34,7 @@ Below, the **`_satellite`** API is listed out fully and there are beginning to b
 
 ----
 
-#### Types Glossary
+## Types Glossary
 
 The "Types" Glossary is used to clearly define types for each method or property of the Satellite API. 
 
@@ -51,7 +51,7 @@ The "Types" Glossary is used to clearly define types for each method or property
 
 ----
 
-#### Method Argument Glossary
+## Method Argument Glossary
 
 The Method Argument Glossary is used to clearly define arguments used witin Satellite Methods. 
 
@@ -73,7 +73,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 
 ----
 
-#### API methods and properties
+## API methods and properties
 
 - **initialized:** `bool` 
   - _example:_ `console.log(_satellite.initialized) // true`
