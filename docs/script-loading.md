@@ -2,7 +2,7 @@
 
 This documentation discusses script loading while using the Satellite Library.
 
-## Async Library Loading Static Library Loading
+## Async `_satellite` Library Loading and Static `_satellite` Library Loading
 
 There are generally two approaches for loading analytics scripts—asynchronously and synchronously. Asynchronous script loading is beneficial for overall webpage loading performance. Synchronous script loading is beneficial for ease of implementation. 
 
