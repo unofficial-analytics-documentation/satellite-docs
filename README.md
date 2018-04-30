@@ -94,6 +94,8 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **Logger:** `{obj}`
   - outputEnabled: `bool` 
   - messages: `[array]`
+    - _example_ `console.log(_satellite.Logger.messages);`
+    - Logs the state of satellite. 
   - keepLimit: `num` 
   - flushed: `bool`
   - LEVELS: `[array]`
