@@ -1,0 +1,29 @@
+{
+  "name": "satellite-docs",
+  "version": "0.0.1",
+  "description": "Unofficial Adobe DTM Satellite Documentation 🛰",
+  "main": "README.md",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unofficial-analytics-documentation/satellite-docs.git"
+  },
+  "keywords": [
+    "Satellite",
+    "_satellite",
+    "adobe",
+    "adobe-dtm",
+    "glossary"
+  ],
+  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unofficial-analytics-documentation/satellite-docs/issues"
+  },
+  "homepage": "https://github.com/unofficial-analytics-documentation/satellite-docs#readme"
+}
