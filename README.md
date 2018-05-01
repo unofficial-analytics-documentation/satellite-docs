@@ -263,6 +263,8 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
   - trackInternalLinks: `bool` 
   - libraryName: `"string"` 
   - isStaging: `bool` 
+    - _example:_ `console.log(_satellite.settings.isStaging) // faulse
+    - communicates which environment is being loaded w/o DOM awareness
   - allowGATTcalls: `bool`
   - downloadExtensions: `regex`
 - **specialProperties** `{obj}`
