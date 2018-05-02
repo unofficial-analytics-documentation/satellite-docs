@@ -17,48 +17,49 @@
 
 ----
 
-This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/). It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute! 
+This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/).
+It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute!
 
-The purpose of this document is to provide a place for the DTM community to document the **`_satellite`** library and how it works—not specifically pertaining to DTM.
+The purpose of this document is to provide a place for the DTM community to document the **`_satellite`** library and how it works—not specifically for DTM.
 
 ## Usage Guides
 
-The list below contains guides to implement and use the **`_satellite`** on webpages. 
+The list below contains guides to use **`_satellite`** on webpages.
 
 - **[Script loading](https://github.com/unofficial-analytics-documentation/satellite-docs/blob/master/docs/script-loading.md):** patterns for loading **`_satellite`**.
 
 
 ## Satellite API 🛰
 
-Below, the **`_satellite`** API is listed out fully and there are beginning to be snippets of code on how to use the API as well as a brief description of what the code does.
+Below, the **`_satellite`** API is fully listed. Snippets of code on how to use the API as well as a brief description of what the code does are added throughout.
 
 ----
 
 ## Types Glossary
 
-The "Types" Glossary is used to clearly define types for each method or property of the Satellite API. 
+The "Types" Glossary is used to define types for each method or property of the Satellite API.
 
 - **array:** `[array]`
   - _examples:_ `[1, 2, 3]`
 - **bool:** `boolean`
-  - _examples:_ `true`, `false` 
-- **ƒ:** `function`, 
+  - _examples:_ `true`, `false`
+- **ƒ:** `function`,
   - _examples:_ `function() {}`, `() => {}`
-- **num:** `number`, 
+- **num:** `number`,
   - _examples:_ `1`, `2`, `6`
-- **obj:** `{object}`, 
- - _examples:_ `{ name: 'Randy', id: '1bd45' }`
+- **obj:** `{object}`,
+  - _examples:_ `{ name: 'Randy', id: '1bd45' }`
 
 ----
 
 ## Method Argument Glossary
 
-The Method Argument Glossary is used to clearly define arguments used witin Satellite Methods. 
+The Method Argument Glossary is used to define arguments used witin Satellite Methods.
 
 - **a:** array
   - _type:_ `[array]`
   - _examples:_ `[1, 2, 3]`
-- **e:** event 
+- **e:** event
   - _type:_ todo
   - _examples:_ todo
 - **i:** iterator
@@ -75,9 +76,9 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 
 ## API methods and properties
 
-- **initialized:** `bool` 
+- **initialized:** `bool`
   - _example:_ `console.log(_satellite.initialized) // true`
-  - describes whether `_satellite` has successfully initialized. 
+  - describes whether `_satellite` has initialized.
 - **uuid:** `num`
   - _example:_ `console.log(_satellite.uuid) // 12`
   - universally unique identifier
@@ -87,16 +88,16 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **$data:** `ƒ (t,e,n)`
 - **BaseTool:** `ƒ (t)`
   - _example to create settings:_ `_satellite.BaseTool({ forceLowerCase: true });`
-    - **note** this example could use help. 
-  - _example to extend the prototype:_ `_satellite.BaseTool.stuff = 'stuff'`
+    - **note** this example could use help.
+  - _example to extend the prototype:_ `_satellite.BaseTool.foo = 'foo'`
   - takes in an `{argument object}` called settings for tool setting
-  - Also, has helper methods bound to its prototype 
+  - Also, has helper methods bound to its prototype
 - **Logger:** `{obj}`
-  - outputEnabled: `bool` 
+  - outputEnabled: `bool`
   - messages: `[array]`
     - _example_ `console.log(_satellite.Logger.messages);`
-    - Logs the state of satellite. 
-  - keepLimit: `num` 
+    - Logs the state of satellite.
+  - keepLimit: `num`
   - flushed: `bool`
   - LEVELS: `[array]`
 - **QueryParams:** `{obj}`
@@ -129,18 +130,18 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **containsElement:** `ƒ (t,e)`
 - **cssQuery:** `ƒ (e,n)`
 - **data:** `{obj}`
-  - URI: `"string"` 
+  - URI: `"string"`
   - browser: `{obj}`
-  - cartItems: `[array]` 
+  - cartItems: `[array]`
   - revenue: `"string"`
   - host: `{obj}`
 - **dataCache:** `{obj}`
 - **dataElementSafe:** `ƒ (t,e)`
 - **dataElements:** `obj`
-  - [instance name]: `{obj}` 
-  - _campaign: `{obj}`, 
-  - _campaignContent: `{obj}` 
-  - _campaignMedium: `{obj}` 
+  - [instance name]: `{obj}`
+  - _campaign: `{obj}`,
+  - _campaignContent: `{obj}`
+  - _campaignMedium: `{obj},
   - _campaignSource: `{obj}`
 - **detectBrowserInfo:** `ƒ ()`
 - **directCallRules:** `[array]`
@@ -148,12 +149,12 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **dynamicRules:** `[array]`
 - **each:** `ƒ (t,e,n)`
 - **ecommerce:** `{obj}`
-  - addItem: `ƒ`, 
-  - addTrans: `ƒ`, 
+  - addItem: `ƒ`,
+  - addTrans: `ƒ`,
   - trackTrans: `ƒ`
 - **encodeObjectToURI:** `ƒ (t)`
 - **ensureCSSSelector:** `ƒ ()`
-- **equalsIgnoreCase:** `ƒ (t,e)` 
+- **equalsIgnoreCase:** `ƒ (t,e)`
 - **errors:** `[array]`
 - **escapeForHtml:** `ƒ (t)`
 - **escapeHtmlParams:** `ƒ (t)`
@@ -179,7 +180,7 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **getQueryParam:** `ƒ (t)`
 - **getQueryParamCaseInsensitive:** `ƒ (t)`
 - **getToolsByType:** `ƒ (t)`
-- **getUniqueRuleEvents:** `ƒ () `
+- **getUniqueRuleEvents:** `ƒ ()`
 - **getUserAgent:** `ƒ ()`
 - **getVar:** `ƒ (n,a,r)`
 - **getVars:** `ƒ (t,e,n)`
@@ -260,15 +261,15 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
   - [reference link](https://forums.adobe.com/thread/2422290)
 - **setVideoListeners:** `ƒ ()`
 - **settings:** `{obj}`
-  - trackInternalLinks: `bool` 
-  - libraryName: `"string"` 
-  - isStaging: `bool` 
+  - trackInternalLinks: `bool`
+  - libraryName: `"string"`
+  - isStaging: `bool`
     - _example:_ `console.log(_satellite.settings.isStaging) // faulse
-    - communicates which environment is being loaded w/o DOM awareness
+    - communicates which environment is loaded w/o DOM awareness
   - allowGATTcalls: `bool`
   - downloadExtensions: `regex`
 - **specialProperties** `{obj}`
-  - text: `ƒ` 
+  - text: `ƒ`
   - cleanText: `ƒ`
 - **stagingLibraryOverride:** `ƒ ()`
 - **stopPropagation:** `ƒ (t)`
@@ -285,9 +286,9 @@ The Method Argument Glossary is used to clearly define arguments used witin Sate
 - **uuid:** `num`
 - **values:** `ƒ (t)`
 - **visibility:** `{obj}`
-  - isHidden: `ƒ`, 
-  - isVisible: `ƒ`, 
-  - getHiddenProperty: `ƒ`, 
+  - isHidden: `ƒ`,
+  - isVisible: `ƒ`,
+  - getHiddenProperty: `ƒ`,
   - getVisibilityEvent: `ƒ`
 - **whenEvent:** `ƒ (t,e)`
 - **__proto__:** `{obj}`
