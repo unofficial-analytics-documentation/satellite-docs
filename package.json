@@ -1,13 +1,16 @@
 {
   "name": "satellite-docs",
   "version": "0.0.1",
-  "description": "Unofficial Adobe DTM Satellite Documentation 🛰",
+  "description": "*Unofficial* Adobe DTM Satellite Documentation 🛰",
   "main": "README.md",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "npm start"
+    "markdownlint": "markdownlint *.md",
+    "start": "npm i",
+    "test": "npm run markdownlint && npm run write-good",
+    "write-good": "write-good *.md --no-passive"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,9 @@
   "bugs": {
     "url": "https://github.com/unofficial-analytics-documentation/satellite-docs/issues"
   },
-  "homepage": "https://github.com/unofficial-analytics-documentation/satellite-docs#readme"
+  "homepage": "https://github.com/unofficial-analytics-documentation/satellite-docs#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.8.1",
+    "write-good": "^0.11.3"
+  }
 }
