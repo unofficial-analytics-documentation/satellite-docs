@@ -31,9 +31,7 @@ jobs:
     steps:
       - checkout
       - *restore_cache
-      - run: npm run grammarlint
-      - run: npm run markdownlint
-      - run: npm run spelling:ci
+      - run: npm run test:ci
 
 workflows:
   version: 2
