@@ -54,7 +54,7 @@ The "Types" Glossary is used to define types for each method or property of the 
 
 ## Method Argument Glossary
 
-The Method Argument Glossary is used to define arguments used witin Satellite Methods.
+The Method Argument Glossary is used to define arguments used within Satellite Methods.
 
 - **a:** array
   - _type:_ `[array]`
@@ -264,7 +264,7 @@ The Method Argument Glossary is used to define arguments used witin Satellite Me
   - trackInternalLinks: `bool`
   - libraryName: `"string"`
   - isStaging: `bool`
-    - _example:_ `console.log(_satellite.settings.isStaging) // faulse
+    - _example:_ `console.log(_satellite.settings.isStaging) // false
     - communicates which environment is loaded w/o DOM awareness
   - allowGATTcalls: `bool`
   - downloadExtensions: `regex`

@@ -1,0 +1,73 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+ - docs/script-loading.md
+Async
+webpage
+DTM
+ - README.md
+webpages
+bool
+ƒ
+num
+obj
+todo
+i
+uuid
+dataCache
+BaseTool
+outputEnabled
+keepLimit
+QueryParams
+addEventHandler
+appVersion
+availableEventEmitters
+availableTools
+backgroundTasks
+basePath
+bindEvent
+bindEventOnce
+browserInfo
+os
+deviceType
+buildDate
+checkAsyncInclude
+cleanText
+configurationSettings
+pageLoadRules
+directCallRules
+containsElement
+cssQuery
+cartItems
+dataElementSafe
+dataElements
+_campaign
+_campaignContent
+_campaignMedium
+ƒƒƒƒ
+boolƒ
+isArray
+_satellite.setVar
+PageName
+_satellite.data.customVars
+boolconsole.log
+_satellite.settings.isStaging
+o
+allowGATTcalls
+downloadExtensions
+specialProperties
+stagingLibraryOverride
+stopPropagation
+stringify
+textMatch
+toArray
+unbindEvent
+updateQueryParams
+isHidden
+isVisible
+getHiddenProperty
+getVisibilityEvent
+whenEvent
+proto
