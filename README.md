@@ -88,7 +88,6 @@ The Method Argument Glossary is used to define arguments used witin Satellite Me
 - **$data:** `ƒ (t,e,n)`
 - **BaseTool:** `ƒ (t)`
   - _example to create settings:_ `_satellite.BaseTool({ forceLowerCase: true });`
-    - **note** this example could use help.
   - _example to extend the prototype:_ `_satellite.BaseTool.foo = 'foo'`
   - takes in an `{argument object}` called settings for tool setting
   - Also, has helper methods bound to its prototype
