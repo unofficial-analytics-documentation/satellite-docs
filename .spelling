@@ -71,3 +71,6 @@ getHiddenProperty
 getVisibilityEvent
 whenEvent
 proto
+ - CODE_OF_CONDUCT.md
+behavior
+behaviors
