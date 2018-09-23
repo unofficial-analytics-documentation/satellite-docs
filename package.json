@@ -7,12 +7,13 @@
     "doc": "docs"
   },
   "scripts": {
-    "markdownlint": "markdownlint *.md",
+    "markdownlint": "markdownlint README.md",
     "spelling": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers",
     "spelling:ci": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers --report",
     "start": "npm i",
     "test": "npm run markdownlint && npm run write-good && npm run spelling",
     "test:ci": "npm run markdownlint && npm run write-good && npm run spelling:ci",
+    "updates:check": "npx ncu",
     "write-good": "write-good *.md --no-passive"
   },
   "repository": {
