@@ -10,7 +10,7 @@ Below are general patterns for loading Satellite Library.
 
 ### Async Library Loading
 
-Async Library Loading is loading scripts to a webpage. This means that on a webpage's initial load there is no Satellite Library or other analtyics code. The Satellite Library is loaded via Javascript by being dynamically added to the page. 
+Async Library Loading is loading scripts to a webpage. This means that on a webpage's initial load there is no Satellite Library or other analytics code. The Satellite Library is loaded via JavaScript by being dynamically added to the page. 
 
 ```javascript
 // Pseudo code referencing code written by: Jacob Kelley, Jon Ong
