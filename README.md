@@ -4,7 +4,7 @@
 
 [![CircleCI](https://circleci.com/gh/unofficial-analytics-documentation/satellite-docs.svg?style=svg)](https://circleci.com/gh/unofficial-analytics-documentation/satellite-docs) [![Greenkeeper badge](https://badges.greenkeeper.io/unofficial-analytics-documentation/satellite-docs.svg)](https://greenkeeper.io/)
 
-----
+---
 
 <h1 align="center">Satellite Documentation</h1>
 
@@ -17,7 +17,7 @@
   <a href="/wiki">Wiki</a>
 </p>
 
-----
+---
 
 This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/).
 It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute!
@@ -30,12 +30,11 @@ The list below contains guides to use **`_satellite`** on webpages.
 
 - **[Script loading](https://github.com/unofficial-analytics-documentation/satellite-docs/blob/master/docs/script-loading.md):** patterns for loading **`_satellite`**.
 
-
 ## Satellite API 🛰
 
 Below, the **`_satellite`** API is fully listed. Snippets of code on how to use the API as well as a brief description of what the code does are added throughout.
 
-----
+---
 
 ## Types Glossary
 
@@ -52,7 +51,7 @@ The "Types" Glossary is used to define types for each method or property of the 
 - **obj:** `{object}`,
   - _examples:_ `{ name: 'Randy', id: '1bd45' }`
 
-----
+---
 
 ## Method Argument Glossary
 
@@ -74,20 +73,21 @@ The Method Argument Glossary is used to define arguments used within Satellite M
   - _type:_ `"is a string"`
   - _examples:_ "string", "this is a string"
 
-----
+---
 
 ## API methods and properties
 
 - **initialized:** `bool`
-  - _example:_ `console.log(_satellite.initialized) // true`
+  - _example:_ `_satellite.initialized` returns `true`
   - describes whether `_satellite` has initialized.
 - **uuid:** `num`
-  - _example:_ `console.log(_satellite.uuid) // 12`
+  - _example:_ `_satellite.uuid` returns `12`
   - universally unique identifier
 - **dataCache:** `{obj}`
-  - _example:_ `console.log(_satellite.dataCache[1]) // {eventProcessed: true}`
+  - _example:_ `_satellite.dataCache[1]` returns `{eventProcessed: true}`
   - an `[array]` of `{objects}` with stored `events`
-- **$data:** `ƒ (t,e,n)`
+- **\$data:** `ƒ (e,t,n)`
+  - unknown
 - **BaseTool:** `ƒ (t)`
   - _example to create settings:_ `_satellite.BaseTool({ forceLowerCase: true });`
   - _example to extend the prototype:_ `_satellite.BaseTool.foo = 'foo'`
@@ -103,17 +103,23 @@ The Method Argument Glossary is used to define arguments used within Satellite M
   - LEVELS: `[array]`
 - **QueryParams:** `{obj}`
 - **URI:** `ƒ ()`
+  - returns URI
+    - _example_ `window.satellite.URI()` returns `"/"`
 - **URL:** `ƒ ()`
-- **addEventHandler:** `ƒ (t,e,n)`
-- **any:** `ƒ (t,e,n)`
+  - returns URL
+    - _example_ `window.satellite.URL()` return `"https://foo.com"`
+- **addEventHandler:** `ƒ (e,t,n)`
+- **any:** `ƒ (e,t,n)`
 - **appVersion:** `"string"`
+  - _example_ `"6WD"`
 - **availableEventEmitters:** `[array]`
+  - _example_
 - **availableTools:** `{obj}`
 - **backgroundTasks:** `ƒ ()`
 - **basePath:**
-- **bind:** `ƒ (t,e)`
-- **bindEvent:** `ƒ (t,e)`
-- **bindEventOnce:** `ƒ (t,e)`
+- **bind:** `ƒ (e,t)`
+- **bindEvent:** `ƒ (e,t)`
+- **bindEventOnce:** `ƒ (e,t)`
 - **browserInfo:** `{obj}`
   - browser: `"string"`
   - os: `"string"`
@@ -127,8 +133,8 @@ The Method Argument Glossary is used to define arguments used within Satellite M
   - directCallRules: `[array]`
   - settings: `{obj}`
   - data: `{obj}`
-- **contains:** `ƒ (t,e)`
-- **containsElement:** `ƒ (t,e)`
+- **contains:** `ƒ (e,t)`
+- **containsElement:** `ƒ (e,t)`
 - **cssQuery:** `ƒ (e,n)`
 - **data:** `{obj}`
   - URI: `"string"`
@@ -137,13 +143,13 @@ The Method Argument Glossary is used to define arguments used within Satellite M
   - revenue: `"string"`
   - host: `{obj}`
 - **dataCache:** `{obj}`
-- **dataElementSafe:** `ƒ (t,e)`
+- **dataElementSafe:** `ƒ (e,t)`
 - **dataElements:** `obj`
   - [instance name]: `{obj}`
-  - _campaign: `{obj}`,
-  - _campaignContent: `{obj}`
-  - _campaignMedium: `{obj},
-  - _campaignSource: `{obj}`
+  - \_campaign: `{obj}`,
+  - \_campaignContent: `{obj}`
+  - \_campaignMedium: `{obj},
+  - \_campaignSource: `{obj}`
 - **detectBrowserInfo:** `ƒ ()`
 - **directCallRules:** `[array]`
 - **domReady:** `ƒ (t)`
@@ -265,7 +271,7 @@ The Method Argument Glossary is used to define arguments used within Satellite M
   - trackInternalLinks: `bool`
   - libraryName: `"string"`
   - isStaging: `bool`
-    - _example:_ `console.log(_satellite.settings.isStaging) // false
+    - _example:_ `console.log(\_satellite.settings.isStaging) // false
     - communicates which environment is loaded w/o DOM awareness
   - allowGATTcalls: `bool`
   - downloadExtensions: `regex`
@@ -292,5 +298,4 @@ The Method Argument Glossary is used to define arguments used within Satellite M
   - getHiddenProperty: `ƒ`,
   - getVisibilityEvent: `ƒ`
 - **whenEvent:** `ƒ (t,e)`
-- **__proto__:** `{obj}`
-
+- \***\*proto**:\*\* `{obj}`

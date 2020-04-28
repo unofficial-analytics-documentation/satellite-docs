@@ -8,11 +8,9 @@
   },
   "scripts": {
     "markdownlint": "markdownlint README.md",
-    "spelling": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers",
-    "spelling:ci": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers --report",
     "start": "npm i",
-    "test": "npm run markdownlint && npm run write-good && npm run spelling",
-    "test:ci": "npm run markdownlint && npm run write-good && npm run spelling:ci",
+    "test": "npm run markdownlint && npm run write-good",
+    "test:ci": "npm run markdownlint && npm run write-good",
     "updates:check": "npx ncu",
     "write-good": "write-good *.md --no-passive"
   },
@@ -34,7 +32,6 @@
   },
   "homepage": "https://github.com/unofficial-analytics-documentation/satellite-docs#readme",
   "devDependencies": {
-    "markdown-spellcheck": "^1.3.1",
     "markdownlint-cli": "^0.22.0",
     "npm-check-updates": "^4.0.1",
     "write-good": "^1.0.2"
