@@ -34,6 +34,6 @@
   "devDependencies": {
     "markdownlint-cli": "^0.26.0",
     "npm-check-updates": "^10.2.5",
-    "write-good": "^1.0.4"
+    "write-good": "^1.0.6"
   }
 }
