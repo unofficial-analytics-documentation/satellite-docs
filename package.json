@@ -33,7 +33,7 @@
   "homepage": "https://github.com/unofficial-analytics-documentation/satellite-docs#readme",
   "devDependencies": {
     "markdownlint-cli": "^0.26.0",
-    "npm-check-updates": "^10.2.5",
+    "npm-check-updates": "^11.7.1",
     "write-good": "^1.0.4"
   }
 }
