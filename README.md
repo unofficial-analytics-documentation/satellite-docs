@@ -4,7 +4,7 @@
 
 ---
 
-<h1 align="center">Satellite Documentation</h1>
+<h1 align="center">Archived: Satellite Documentation</h1>
 
 <p align="center">
   <a href="#satellite-api">Satellite API</a>&nbsp;&nbsp;
@@ -16,6 +16,8 @@
 </p>
 
 ---
+
+**Archived: See the [Adobe Analytics Satellite Docs](https://experienceleague.adobe.com/docs/experience-platform/tags/client-side/satellite-object.html) for a better reference!**
 
 This repository contains _unofficial_ **Adobe DTM Satellite Library** documentation. The Satellite Library is used for [Adobe DTM](https://marketing.adobe.com/).
 It manages and tracks data for Adobe DTM and Adobe Analytics. If you have insight, please contribute!
